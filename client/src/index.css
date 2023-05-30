@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&display=swap");
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("assets/fonts/Gilroy/Gilroy-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "CirceBold";
+  src: url("assets/fonts/Circe/Circe-Bold.otf") format("truetype");
+}
+@font-face {
+  font-family: "CirceNormal";
+  src: url("assets/fonts/Circe/CRC55.otf") format("truetype");
+}
+@font-face {
+  font-family: "ModernH";
+  src: url("assets/fonts/ModernH/ModernH-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Coolvetica";
+  src: url("assets/fonts/Coolvetica/coolvetica-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Averta";
+  src: url("assets/fonts/Averta/AvertaDemo-Regular.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Circe";
+  src: url("assets/fonts/Circe/CRC35.otf") format("truetype");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.linear-gradient {
+  background: linear-gradient(
+    179.14deg,
+    rgba(32, 18, 63, 0) -7.14%,
+    #000000 87.01%
+  );
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  filter: invert(0.8);
+}
+
+body {
+  height: 100%;
+}

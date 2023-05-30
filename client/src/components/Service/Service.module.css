@@ -1,0 +1,63 @@
+.service {
+  width: 100%;
+  margin: 1rem auto;
+  margin-block: 4rem;
+}
+
+.service_box {
+  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  gap: 3rem;
+  text-align: center;
+}
+.service_box_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service_box_item_step {
+  margin-bottom: 2rem;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  font-family: "CirceBold";
+}
+
+.service_box_item p {
+  font-size: 1.3rem;
+}
+.service_box_item h3 {
+  font-size: 1.5rem;
+  font-family: "CirceNormal";
+}
+.service_box_item_step span {
+  padding: 0.5rem 1.5rem;
+  border-radius: 5rem;
+  background-color: var(--icons-color);
+  color: var(--shadow-dark-color);
+}
+
+@media screen and (max-width: 35em) {
+  .service {
+    width: 90%;
+  }
+  .service_box_item p {
+    font-size: 1rem;
+  }
+  .service_box_item h3 {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 50em) {
+  .service_box {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .service_box_item p {
+    font-size: 1.1rem;
+  }
+  .service_box_item h3 {
+    font-size: 1.2rem;
+  }
+}
