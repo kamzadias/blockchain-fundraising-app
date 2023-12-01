@@ -4,7 +4,7 @@ This app is promising for solving many problems related to confidentiality, secu
 - [Link to the web application](https://umit-fundraising.netlify.app/)
 - [Follow on LinkedIn](https://linkedin.com/in/kamzadias)
 
-![Fundraising web-application](<img width="1710" alt="image" src="https://github.com/kamzadias/blockchain-fundraising-app/assets/68639981/edf60e89-80f3-4ad2-8591-a0024cddb0a6">)
+![Fundraising web-application](<img width="912" alt="image" src="https://github.com/kamzadias/blockchain-fundraising-app/assets/68639981/edf60e89-80f3-4ad2-8591-a0024cddb0a6">)
 
 ## Overview
 - Campaign creator can create own charity campaign and monitor the fundraising process
